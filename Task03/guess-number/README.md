@@ -73,5 +73,10 @@ Task02/
      ├─ composer.lock           
      └─ README.md               # Документация
 	 
+	## Публикация на Packagist
+	
+	Пакет опубликован: https://packagist.org/packages/goodlixe/guess-number
+
+	
 Автор
 FaizullinIlnur
