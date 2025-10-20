@@ -1,0 +1,34 @@
+{
+    "name": "goodlixe/guess-number",
+    "description": "Console number guessing game with SQLite database",
+    "type": "project",
+    "license": "MIT",
+    "bin": [
+        "bin/guess-number.php"
+    ],
+    "autoload": {
+        "files": [
+            "vendor/gabordemooij/redbean/RedBeanPHP/Facade.php",
+            "src/Controller.php",
+            "src/View.php",
+            "src/Database.php",
+            "src/GameRepository.php",
+            "src/DatabaseORM.php",
+            "src/GameRepositoryORM.php",
+            "src/ArgsParser.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Ilnur Faizullin",
+            "email": "gdlxesup@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-pdo_sqlite": "*",
+        "gabordemooij/redbean": "^5.7"
+    }
+}
